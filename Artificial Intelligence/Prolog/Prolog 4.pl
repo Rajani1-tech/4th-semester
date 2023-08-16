@@ -1,0 +1,9 @@
+% Facts
+likes( Rajani, mango).
+likes( Rajani, ice_cream).
+likes( Suhana, banana).
+likes( Suhana, ice_cream).
+likes( Samir, salad).
+likes( Samir, chocolate).
+% Rules
+friend(X, Y) :- likes(X, Z), likes(Y, Z)
